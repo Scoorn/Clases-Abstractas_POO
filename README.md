@@ -23,7 +23,7 @@ def mostrar_info(self):
         print(f"Empleado: {self.nombre}")
         print(f"Salario mensual: {self.calcular_salario()}")
 ```
-Seguimos con la clase EmpleadoMedioTiempo(Empleado)igualmente con tres metodos, pero aqui el primer metodo recibe horas trabajadas y pago por hora que utilizaremos en el segundo metodo para calcular su salario que seria horas * pago por hora:
+Seguimos con la clase EmpleadoMedioTiempo(Empleado)igualmente con tres metodos, pero aqui el primer metodo recibe horas trabajadas y pago por hora que utilizaremos en el segundo metodo para calcular su salario que seria horas trabajadas * pago por hora:
 ```
 def calcular_salario(self):
         return self.horas_trabajadas*self.pago_por_hora
